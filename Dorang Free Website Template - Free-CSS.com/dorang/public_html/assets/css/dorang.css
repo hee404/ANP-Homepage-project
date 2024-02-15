@@ -11877,6 +11877,23 @@ body.dark-theme {
           transition-timing-function: linear;
 }
 
+.header3 {
+  background-color: white;
+  z-index: 990;
+  position: relative;
+  height: 30%;
+  min-height: 100px;
+  text-align: center;
+  color: #fff;
+  background-image: url(../imgs/header3.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
 .header5 {
   background-color: white;
   z-index: 990;
@@ -12099,6 +12116,7 @@ body.dark-theme {
   top: 0px;
   height: 400px;
   display: inline-block;
+  text-align: left;
  
 }
 
